@@ -9,7 +9,7 @@
 		"build:prepord": "vite build --mode preprod",
 		"build:prod": "vite build --mode prod",
 		"lint": "eslint ./src --ext .jsx,.js,.ts,.tsx -c eslintrc.js",
-		"lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix -c .eslintrc.js"
+		"lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix -c eslintrc.js"
 	},
 	"keywords": [],
 	"author": "",
