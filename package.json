@@ -11,10 +11,17 @@
 		"lint": "eslint ./src --ext .jsx,.js,.ts,.tsx -c eslintrc.js",
 		"lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx --fix -c eslintrc.js"
 	},
+	"husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+		}
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@commitlint/cli": "^13.2.0",
+		"@commitlint/config-conventional": "^13.2.0",
 		"@types/react": "^17.0.27",
 		"@types/react-dom": "^17.0.9",
 		"@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -28,6 +35,7 @@
 		"eslint-plugin-react": "^7.26.1",
 		"eslint-plugin-react-hooks": "^4.2.0",
 		"eslint-plugin-simple-import-sort": "^7.0.0",
+		"husky": "^7.0.2",
 		"less": "^4.1.2",
 		"path": "^0.12.7",
 		"prettier": "^2.4.1",
