@@ -1,12 +1,12 @@
 /**
  * 获取当前的环境变量
- * @returns 
+ * @returns
  */
 export const environmentVariable = () => {
     const env = import.meta.env.VITE_APP_ANT
-    let parps = null;
-    switch(env) {
-        case 'dev': 
+    let parps = null
+    switch (env) {
+        case 'dev':
             parps = 'dev'
             break
         case 'alpha':
