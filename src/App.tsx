@@ -8,7 +8,7 @@ const App: FC = () => {
         setCount(count)
     }
     useEffect(() => {
-        console.log(123)
+        console.log('app Index')
     }, [])
 
     return (
