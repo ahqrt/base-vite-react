@@ -3,7 +3,7 @@ import {
   VITE_APP_CONSOLE,
   VITE_APP_DEBUGGER,
   VITE_APP_SOURCEMAP,
-} from '../config'
+} from './index'
 
 const build: BuildOptions = {
   terserOptions: {

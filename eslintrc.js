@@ -24,6 +24,7 @@ module.exports = {
 		'plugin:react-hooks/recommended',
 		'plugin:jsx-a11y/recommended',
 		'plugin:prettier/recommended',
+        'plugin:import/recommended'
 	],
 	plugins: ['simple-import-sort', 'prettier'],
 	rules: {
@@ -50,6 +51,7 @@ module.exports = {
 		'spaced-comment': ['error', 'always'],
 		'no-multiple-empty-lines': ['error', { max: 3 }],
 		indent: ['error', 4, {'SwitchCase': 1}],
-		"no-unused-vars": 1
+		"no-unused-vars": 1,
+        "parser": "babel-eslint"
 	},
 }

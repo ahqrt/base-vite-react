@@ -18,6 +18,7 @@ export default defineConfig((configEnv) => {
         },
         resolve: {
             alias: {
+                // @ts-ignore
                 '@': path.resolve(__dirname, 'src')
             }
         },
